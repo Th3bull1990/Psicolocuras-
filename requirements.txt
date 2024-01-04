@@ -1,1 +1,16 @@
+pip install transformers
+pip install PyNaCl
+pip install torch
+pip install Dockers
+pip intall discord
+pip install 
+pip install --upgrade huggingface_hub[inference]
+# or
+# pip install aiohttp
+# Install dependencies for tensorflow-specific features
+# /!\ Warning: this is not equivalent to `pip install tensorflow`
+pip install 'huggingface_hub[tensorflow]'
 
+# Install dependencies for both torch-specific and CLI-specific features.
+pip install 'huggingface_hub[cli,torch]'
+pip install git+https://github.com/huggingface/huggingface_hub
