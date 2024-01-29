@@ -2,7 +2,7 @@ pip install transformers
 pip install PyNaCl
 pip install torch
 pip install Dockers
-pip intall discord
+pip intall conda
 pip install 
 pip install --upgrade huggingface_hub[inference]
 # or
